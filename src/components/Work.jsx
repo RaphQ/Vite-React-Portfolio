@@ -5,28 +5,28 @@ const data = [
   {
     year: 'Year',
     title: 'Title',
-    duration: 'How many years',
+    duration: 'Total MM|YY',
     details:
       'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dolorum impedit eos ullam necessitatibus? A aperiam corporis facere eos molestias eum nihil repellat saepe maxime nostrum, sint vero nesciunt tempore.'
   },
   {
     year: 'Year',
     title: 'Title',
-    duration: 'How many years',
+    duration: 'Total MM|YY',
     details:
       'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dolorum impedit eos ullam necessitatibus? A aperiam corporis facere eos molestias eum nihil repellat saepe maxime nostrum, sint vero nesciunt tempore.'
   },
   {
     year: 'Year',
     title: 'Title',
-    duration: 'How many years',
+    duration: 'Total MM|YY',
     details:
       'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dolorum impedit eos ullam necessitatibus? A aperiam corporis facere eos molestias eum nihil repellat saepe maxime nostrum, sint vero nesciunt tempore.'
   },
   {
     year: 'Year',
     title: 'Title',
-    duration: 'How many years',
+    duration: 'Total MM|YY',
     details:
       'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dolorum impedit eos ullam necessitatibus? A aperiam corporis facere eos molestias eum nihil repellat saepe maxime nostrum, sint vero nesciunt tempore.'
   }
