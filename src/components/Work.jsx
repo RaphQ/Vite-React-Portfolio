@@ -3,38 +3,33 @@ import Workitem from './Workitem';
 
 const data = [
   {
-    year: 'Year',
-    title: 'Title',
-    duration: 'Total MM|YY',
+    year: '',
+    title: 'Process Analyst – Incenter Solutions LLC Philippine Branch Office',
+    duration: 'Feb 19, 2020 - Dec 21, 2022',
     details:
-      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dolorum impedit eos ullam necessitatibus? A aperiam corporis facere eos molestias eum nihil repellat saepe maxime nostrum, sint vero nesciunt tempore.'
+      'Perform quality assurance audits to ensure compliance with investor and agency, Complete preliminary checklist, To ensure all required documents are included in the loan file.'
   },
   {
-    year: 'Year',
-    title: 'Title',
-    duration: 'Total MM|YY',
+    year: '',
+    title: 'Marketing Assistant – Revolution Precrafted Properties Phils., Inc',
+    duration: 'Nov 5, 2018 - July 4, 2019',
     details:
-      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dolorum impedit eos ullam necessitatibus? A aperiam corporis facere eos molestias eum nihil repellat saepe maxime nostrum, sint vero nesciunt tempore.'
+      'Assisting with closing processes, Preparing listing materials and posting property listings, Managing a client database and preparing reports, Coordinating showings, assisting at open houses, and obtaining feedback.'
   },
   {
-    year: 'Year',
-    title: 'Title',
-    duration: 'Total MM|YY',
+    year: '',
+    title: 'Property Specialist – New San Jose Builders Inc',
+    duration: 'June 19, 2018 - Oct 31, 2018',
     details:
-      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dolorum impedit eos ullam necessitatibus? A aperiam corporis facere eos molestias eum nihil repellat saepe maxime nostrum, sint vero nesciunt tempore.'
-  },
-  {
-    year: 'Year',
-    title: 'Title',
-    duration: 'Total MM|YY',
-    details:
-      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dolorum impedit eos ullam necessitatibus? A aperiam corporis facere eos molestias eum nihil repellat saepe maxime nostrum, sint vero nesciunt tempore.'
+      'To find potential clients to buy a property from the developer, Responsible for managing and assisting the clients.'
   }
 ];
 const Work = () => {
   return (
     <div id='work' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
-      <h1 className='text-4xl font-bold text-center text-[#001b5e]'>Work</h1>
+      <h1 className='py-8 text-4xl font-bold text-center text-[#001b5e]'>
+        Work Experience
+      </h1>
       {data.map((item, idx) => (
         <Workitem
           key={idx}
